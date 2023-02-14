@@ -4,7 +4,7 @@
       <div class="header__inner">
         <div class="header__left">
           <div class="logo">
-            <a class="logo__link" href="">Hadjimuradov</a>
+            <a class="logo__link" href="/">Hadjimuradov</a>
           </div>
           <div class="navbar">
             <ul class="navbar__list">
@@ -18,7 +18,9 @@
           </div>
         </div>
         <div class="header__right">
-          <color-mode />
+          <ClientOnly>
+            <color-mode />
+          </ClientOnly>
         </div>
       </div>
     </div>

@@ -1,6 +1,6 @@
-* {
-  font-family: 'Roboto Mono', monospace;
-}
-body {
-  display: flex;
-}
+@import './reset.scss';
+@import './fonts.scss';
+@import './base.scss';
+@import './header.scss';
+@import './footer.scss';
+@import './components/color-mode.scss';

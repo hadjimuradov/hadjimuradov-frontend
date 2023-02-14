@@ -1,0 +1,26 @@
+.color-mode {
+  display: flex;
+  align-items: center;
+  &__light, &__dark {
+    cursor: pointer;
+    transform-origin: center;
+    transition: all .2s ease-in-out;
+    path {
+      transition: fill .15s ease-in-out;
+    }
+  }
+  &__light {
+    &:hover {
+      .color-mode__light path {
+        fill: #6d8592;
+      }
+    }
+  }
+  &__dark {
+    &:hover {
+      .color-mode__dark path {
+        fill: #f3dd4a;
+      }
+    }
+  }
+}
